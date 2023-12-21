@@ -1,0 +1,53 @@
+html, body {
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-color: rgb(238, 250, 203);
+   font-family: Calibri, sans-serif;
+   font-size: 100%;
+}
+h1 {
+   font-size: 200%;
+   text-align: center;
+}
+h2 {
+   padding-left: 15px;
+}
+p,ul,li,td {
+   color: black;
+}
+a:link {
+   color: rgb(81, 69, 255);
+}
+
+
+.navbar {
+   position: fixed;
+   width: 100%;
+}
+.navbar .nav {
+  float: none;
+}
+.navbar .nav>li {
+   width: 25%;
+}
+.content {
+   padding-top: 80px;
+}
+
+#nav-collapse li a:hover { 
+   color: rgb(91, 69, 255); 
+}
+#nav-collapse a:hover { 
+
+   background-color: rgb(255, 255, 255); 
+}
+
+#nav-collapse  li.active { 
+  color:black; 
+}
+#nav-collapse  li.active a {
+   color: rgb(81, 69, 255);
+}
+
