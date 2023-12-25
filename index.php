@@ -22,7 +22,6 @@
       <a name="accueil">Accueil</a>
       <div class='elm'>
    <p align="center"></p>
-   <!--<img class="photodemoi" src="moi.jpg"         !!!!!!!              -->
 </div>
      <a name="Apropos">A Propos</a>
 
@@ -116,7 +115,6 @@ echo $yamlContent["formulaire"]["texteformlaire"];
 $content=file_get_contents('competenceyaml.yaml');
         $yamlContent=yaml_parse_file($content);
         $competences=$yamlContent['formulaire'];
-        echo '<img id="logoformulaire" src="'.$yamlContent["formulaire"]["image"].'" />';
         $content=file_get_contents('competenceyaml.yaml');
         $yamlContent=yaml_parse_file($content);
 ?>
